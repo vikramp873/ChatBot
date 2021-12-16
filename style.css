@@ -1,0 +1,148 @@
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+.card-end {
+   --animate-delay: 6s;
+ }
+
+body,html{
+   line-height: 1.7;
+   font-family: 'DM Sans', sans-serif;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+
+}
+
+.container{
+   width: 80%;
+margin: 0 auto;
+max-width: 80%;
+height: 200px;
+padding: 20px 0;
+}
+
+.chatbot{
+   background-color: white;
+box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+border-radius: 15px;
+height: 95vh;
+  
+}
+
+.chatbot-heading-content{
+  background: linear-gradient(123.75deg, #F5821F 1.87%, #FF5C00 120.46%);
+  color: #fff;
+}
+
+.faq {
+   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+   overflow: hidden;
+   border-radius: 15px;
+   padding: 15px;
+   margin: 15px 0;
+ }
+
+ .card p, .card b{
+   color: #2D2D2D;
+   margin: 0 auto;
+ }
+
+ .card-end{
+ text-align: center;
+ box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+ overflow: hidden;
+ border-radius: 80px;
+ padding: 15px;
+}
+
+.orange{
+   color: #FF7600CC;
+
+}
+
+.chatbot-main-content {
+   border: 1px solid #e4e4e4;
+   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+   overflow: hidden;
+   border-radius: 15px;
+   margin: 20px;
+   padding: 20px;
+ }
+
+ .form {
+   position: relative;
+   top: -50px;
+   height: 500px;
+   z-index: 99999;
+   justify-self: flex-end;
+   animation: slideInFromRight 1s ease-in;
+   background: #fff;
+ }
+
+ .card-end b{
+   color: #2D2D2D;
+
+ }
+
+ .bot-img{
+   background: linear-gradient(180deg, #FF7600 0%, #FF5C00 100%);
+color: #fff;
+height: 69px;
+display: inline-block;
+border-radius: 70px;
+height: 70px;
+padding: 7px;
+ }
+
+ @media screen and (max-width:809px){
+    .chatbot{
+       height: auto;
+    }
+ }
+
+
+
+ @media screen and (max-width:768px) {
+   .form {
+      
+      height: auto;
+      
+    }
+
+    .chatbot{
+       max-width: 95%;
+       margin: 0 auto;
+       font-size: 14px;
+       height: auto;
+    }
+ }
+
+ @media screen and (max-width:480px){
+   .form {
+      
+      height: 600px;
+      
+    }
+
+    .chatbot {
+      height: auto;
+      max-width: 95%;
+      margin: 10px;
+    }
+
+    body,html{
+       height: auto;
+    }
+
+    .card p, .card b {
+     
+      font-size: 15px;
+    }
+ }

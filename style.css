@@ -101,6 +101,13 @@ height: 70px;
 padding: 7px;
  }
 
+ @media  (min-width:809px) and (max-width:1080px){
+    .chatbot{
+       height: auto;
+    }
+ }
+
+
  @media screen and (max-width:809px){
     .chatbot{
        height: auto;
